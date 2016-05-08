@@ -7,6 +7,11 @@
 
     <jzlview.jzl.com.myview.LogicView
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <jzlview.jzl.com.myview.v3.LogicView
+        android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
 </FrameLayout>

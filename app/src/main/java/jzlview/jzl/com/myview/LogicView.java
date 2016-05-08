@@ -32,7 +32,7 @@ public class LogicView extends View{
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         paint.setTextSize(30);
-        canvas.drawText("LogicView", rx, 30, paint);
+        canvas.drawText("罗健顺是沙雕", rx, 30, paint);
 
         canvas.drawArc(rectF, 0, sweepAngle, true, paint);     // 绘制圆
 
@@ -53,7 +53,7 @@ public class LogicView extends View{
                 postInvalidate();          // 进行重新绘制（实际上重新调用了onDraw方法）
 
                 if(rx > getWidth()) {  // 如果超出屏幕宽度
-                    rx = 0 - paint.measureText("LogicView");  // 让所有字体从屏幕左侧滚出
+                    rx = 0 - paint.measureText("罗健顺是沙雕");  // 让所有字体从屏幕左侧滚出
                 }
 
                 float tangle;
